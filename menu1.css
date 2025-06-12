@@ -305,7 +305,7 @@ main {
 
 
 
-@media (max-width:832px) and(min-width:0px)
+@media (max-width:0px) and(min-width:832px)
     body {
         max-width: 800px;
         margin: 0 auto;
