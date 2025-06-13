@@ -1,119 +1,273 @@
 body {
-  max-width: 100%;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-  background-image: url(fondo7.jpg);
-  background-size: cover;
-  background-position: center;
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
 }
-
-/* Estilos generales para textos y botones */
-.text {
-  position: absolute;
-  left: 10px;
-  font-size: 40px;
-  color: #ffffff;
-  text-align: left;
-}
-
-.text1 {
-  font-style: none;
-  font-size: 55px;
-  position: absolute;
-  left: 850px;
-  top: 50px;
-  color: #000000;
-  text-align: center;
-  padding-right: 300px;
-  height: 1;
-}
-
-.btplanta {
-  border-style: none;
-  position: absolute;
-  top: 50px;
-  right: 290px;
-  border-radius: 100px;
-  width: 130px;
-  height: 30px;
-  background: linear-gradient(45deg,#00aeff, #ffffff);
-  text-align: center;
-  align-content: center;
-}
-
-.btfiltrar {
-  border-style: none;
-  position: absolute;
-  top: 50px;
-  right: 120px;
-  border-radius: 100px;
-  width: 130px;
-  height: 30px;
-  background: linear-gradient(45deg,#00aeff, #ffffff);
-  text-align: center;
-  align-content: center;
-}
-
-/* Tus otros estilos permanecen igual... */
-
-.MONTERREY {
-  font-size: 18px;
-  border-style: line;
-  position: absolute;
-  top: 210px;
-  left: 200px;
-  width: 290px;
-  height: 80px;
-  background: linear-gradient(45deg,#00aeff,#ffffff);
-}
-
-/* ... (otros estilos de tus clases) ... */
-
-/* Añadimos la media query para pantallas pequeñas */
-@media (max-width: 832px) {
-  body {
-    max-width: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url(fondo7.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  /* Ajustar textos y botones */
-  .text {
-    position: static;
-    font-size: 2rem;
-    padding: 10px;
-    color: #000000; /* Cambié a negro para mejor visibilidad en pantallas pequeñas */
-  }
-
-  .text1 {
-    position: static;
-    font-size: 2.5rem;
-    text-align: center;
-    padding: 10px;
+.text{
+    position: absolute;
+    left: 10px;
+    font-size: 40px;
     color: #000000;
-  }
+    text-align: left;
+}
+.text1{
+    font-style: none ;
+    font-size: 55px;
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    color: #000000;
+    text-align: center;
+    padding-right: 300px;
+    height: 1;
+}
+.btplanta{
+    border-style: dotted;
+    position: absolute;
+    top: 50px;
+    right: 290px;
+    border-radius: 100px;
+    width: 130px;
+    height: 30px;
+    background-color: #ffffff;
+}
+.btfiltrar{
+    border-style: none;
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    border-radius: 100px;
+    width: 130px;
+    height: 30px;
+    background: linear-gradient(45deg,#0ef, #2f0997);
+}
+.MONTERREY{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953) 
+}
+.SLMTR{
+    position: absolute;
+    top: 300PX;
+    left: 200PX;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    border-radius: 90px;
+    background-color: #e9e9e9;
+}
+.CDMX{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 210px;
+    left: 650px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953)
+}
+.SLCDM{
+    position: absolute;
+    top: 300PX;
+    left: 650PX;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+.MERIDA{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 210px;
+    left: 1100px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953)
+}
+.SLMRD{
+    position: absolute;
+    top: 300PX;
+    left: 1100PX;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+.MERIDA2{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 210px;
+    left: 1550px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953)
+}
+.SLMRD2{
+    position: absolute;
+    top: 300PX;
+    left: 1550PX;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+.MONTERREY2{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 460px;
+    left: 200px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953) 
+}
+.SLMTR2{
+    position: absolute;
+    top: 550PX;
+    left: 200PX;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+.CDMX2{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 460px;
+    left: 650px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953) 
+}
+.SLCDM2{
+    position: absolute;
+    top: 550PX;
+    left: 650PX;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+.PUEBLA{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 460px;
+    left: 1100px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953) 
+}
+.SLPB{
+    position: absolute;
+    top: 550PX;
+    left: 1100PX;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+.TIJUANA{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 460px;
+    left: 1550px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953)   
+}
+.SLTJ{
+    position: absolute;
+    top: 550PX;
+    left: 1550PX;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+.OAXACA{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 710px;
+    left: 650px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953) 
+}
+.SLOX{
+    position: absolute;
+    top: 800PX;
+    left: 650px;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+.PUEBLA2{
+    font-size: 18px;
+    border-style: line;
+    position: absolute;
+    top: 710px;
+    left: 1100px;
+    width: 290px;
+    height: 80px;
+    background: linear-gradient(45deg,#0d8a6f,#71e953) 
+}
+.SLPB2{
+    position: absolute;
+    top: 800PX;
+    left: 1100px;
+    height: 35PX;
+    width:290PX;
+    font-size: 18PX;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 90px;
+}
+header {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 2px;
+	text-align: left;
+}
+main {
+	padding: 20px;
+}
+.tank{
+    position: absolute;
+    top: 498px;
+    left: 0px;
 
-  .btplanta, .btfiltrar {
-    position: static;
-    width: 40%;
-    margin: 10px auto;
-  }
-
-  /* Ajustar los contenedores y elementos de las regiones */
-  .MONTERREY, .CDMX, .MERIDA, .PUEBLA, .TIJUANA, .OAXACA {
-    position: static;
-    width: 80%;
-    margin: 20px auto;
-    font-size: 1.2rem;
-  }
-
-  /* Ajustar las clases que usan posición absoluta y coordenadas específicas */
-  /* Puedes seguir este patrón para otras clases si quieres que sean más flexibles */
-
-  /* Ejemplo para las clases de las regiones, si quieres que se ajusten mejor */
-  /* Puedes agregar más reglas específicas si es necesario */
-
-  /*
+}
+.imgato{
+    position: absolute;
+    left: 340px;
+    top: -20px;
+}
