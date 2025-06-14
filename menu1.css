@@ -8,7 +8,7 @@ body {
     position: absolute;
     left: 10px;
     font-size: 40px;
-    color: #ffffff;
+    color: #000000;
     text-align: left;
 }
 .text1{
@@ -17,7 +17,7 @@ body {
     position: absolute;
     left: 850px;
     top: 50px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding-right: 300px;
     height: 1;
@@ -32,7 +32,7 @@ body {
     height: 30px;
     background: linear-gradient(45deg,#00aeff, #ffffff);
     text-align: center;
-    align-content: center;
+    align-content: center;  
 }
 .btfiltrar{
     border-style: none;
@@ -313,16 +313,16 @@ main {
         position: absolute;
         left: 10px;
         font-size: 40px;
-        color: #ffffff;
+        color: #030303;
         text-align: left;
     }
     .text1{
         font-style: none ;
         font-size: 55px;
         position: absolute;
-        left: 850px;
-        top: 50px;
-        color: #ffffff;
+        left: 115px;
+        top: 15px;
+        color: #000000;
         text-align: center;
         padding-right: 300px;
         height: 1;
@@ -330,7 +330,7 @@ main {
     .btplanta{
         border-style: none;
         position: absolute;
-        top: 50px;
+        top: 133px;
         right: 290px;
         border-radius: 100px;
         width: 130px;
@@ -342,8 +342,8 @@ main {
     .btfiltrar{
         border-style: none;
         position: absolute;
-        top: 50px;
-        right: 120px;
+        top: 133px;
+        right: 60px;
         border-radius: 100px;
         width: 130px;
         height: 30px;
@@ -356,17 +356,17 @@ main {
         border-style: line;
         position: absolute;
         top: 210px;
-        left: 200px;
-        width: 290px;
-        height: 80px;
+        left: 20px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff) 
     }
     .SLMTR{
         position: absolute;
         top: 300PX;
-        left: 200PX;
+        left: 17PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         border-radius: 90px;
@@ -380,17 +380,17 @@ main {
         position: absolute;
         color: #000000;
         top: 210px;
-        left: 650px;
-        width: 290px;
-        height: 80px;
+        left: 260px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff)
     }
     .SLCDM{
         position: absolute;
         top: 300PX;
-        left: 650PX;
+        left: 258PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
@@ -402,18 +402,18 @@ main {
         font-size: 18px;
         border-style: line;
         position: absolute;
-        top: 210px;
-        left: 1100px;
-        width: 290px;
-        height: 80px;
+        top: 355px;
+        left: 20px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff)
     }
     .SLMRD{
         position: absolute;
-        top: 300PX;
-        left: 1100PX;
+        top: 445PX;
+        left: 17PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
@@ -425,18 +425,18 @@ main {
         font-size: 18px;
         border-style: line;
         position: absolute;
-        top: 210px;
-        left: 1550px;
-        width: 290px;
-        height: 80px;
+        top: 355px;
+        left: 260px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff)
     }
     .SLMRD2{
         position: absolute;
-        top: 300PX;
-        left: 1550PX;
+        top: 445PX;
+        left: 258PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
@@ -448,18 +448,18 @@ main {
         font-size: 18px;
         border-style: line;
         position: absolute;
-        top: 460px;
-        left: 200px;
-        width: 290px;
-        height: 80px;
+        top: 500px;
+        left: 20px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff) 
     }
     .SLMTR2{
         position: absolute;
-        top: 550PX;
-        left: 200PX;
+        top: 590PX;
+        left: 17PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
@@ -471,18 +471,18 @@ main {
         font-size: 18px;
         border-style: line;
         position: absolute;
-        top: 460px;
-        left: 650px;
-        width: 290px;
-        height: 80px;
+        top: 500px;
+        left: 260px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff) 
     }
     .SLCDM2{
         position: absolute;
-        top: 550PX;
-        left: 650PX;
+        top: 590PX;
+        left: 258PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
@@ -494,18 +494,18 @@ main {
         font-size: 18px;
         border-style: line;
         position: absolute;
-        top: 460px;
-        left: 1100px;
-        width: 290px;
-        height: 80px;
+        top: 645px;
+        left: 20px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff) 
     }
     .SLPB{
         position: absolute;
-        top: 550PX;
-        left: 1100PX;
+        top: 735PX;
+        left: 17PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
@@ -517,18 +517,18 @@ main {
         font-size: 18px;
         border-style: line;
         position: absolute;
-        top: 460px;
-        left: 1550px;
-        width: 290px;
-        height: 80px;
+        top: 645px;
+        left: 260px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff)   
     }
     .SLTJ{
         position: absolute;
-        top: 550PX;
-        left: 1550PX;
+        top: 735PX;
+        left: 258PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
@@ -539,18 +539,18 @@ main {
         font-size: 18px;
         border-style: line;
         position: absolute;
-        top: 710px;
-        left: 650px;
-        width: 290px;
-        height: 80px;
+        top: 790px;
+        left: 20px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff) 
     }
     .SLOX{
         position: absolute;
-        top: 800PX;
-        left: 650px;
+        top: 880PX;
+        left: 17PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
@@ -562,18 +562,18 @@ main {
         font-size: 18px;
         border-style: line;
         position: absolute;
-        top: 710px;
-        left: 1100px;
-        width: 290px;
-        height: 80px;
+        top: 790px;
+        left: 260px;
+        width: 210px;
+        height: 70px;
         background: linear-gradient(45deg,#00aeff,#ffffff) 
     }
     .SLPB2{
         position: absolute;
-        top: 800PX;
-        left: 1100px;
+        top: 880PX;
+        left: 258PX;
         height: 35PX;
-        width:290PX;
+        width:215PX;
         font-size: 18PX;
         border: none;
         background-color: #000000;
