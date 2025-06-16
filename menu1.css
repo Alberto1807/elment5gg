@@ -301,110 +301,307 @@ main {
 
 
 
+/*Media para celulares y telefonos da igual*/
 @media (max-width: 832px){
     body {
-        max-width: 100%;
-        margin: 0;
+        max-width: 800px;
+        margin: 0 auto;
         font-family: Arial, sans-serif;
         background-image: url(fondo7.jpg);
-        overflow-x: hidden;
     }
-
-    .text {
-        font-size: 30px;
-        left: 5%;
+    .text{
+        position: absolute;
+        left: 10px;
+        font-size: 50px;
+        color: #030303;
+        text-align: left;
     }
-
-    .text1 {
+    .text1{
+        font-style: none ;
+        font-size: 80px;
+        position: absolute;
+        left: 300px;
+        top: 20px;
+        color: #000000;
+        text-align: center;
+        padding-right: 300px;
+        height: 1;
+    }
+    .btplanta{
+        font-size: 40px; 
+        border-style: none;
+        position: absolute;
+        top: 200px;
+        right: 540px;
+        border-radius: 100px;
+        width: 290px;
+        height: 50px;
+        background: linear-gradient(45deg,#00aeff, #ffffff);
+        text-align: center;
+        align-content: center;
+    }
+    .btfiltrar{
+        font-size: 40px; 
+        border-style: none;
+        position: absolute;
+        top: 200px;
+        right: 150px;
+        border-radius: 100px;
+        width: 290px;
+        height: 50px;
+        background: linear-gradient(45deg,#00aeff, #ffffff);
+        text-align: center;
+        align-content: center;
+    }
+    .MONTERREY {
+    font-size: 40px; 
+    border-style: solid; 
+    position: absolute;
+    top: 320px;
+    left: 70px;
+    width: 380px;
+    height: 130px;
+    background: linear-gradient(45deg,#00aeff,#ffffff);
+}
+    .SLMTR{
+        position: absolute;
+        top:480PX;
+        left: 70PX;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        border-radius: 90px;
+        background-color: #000000;
+        text-align: center;
+        align-content: center;
+    }
+    .CDMX{
         font-size: 40px;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 10px;
-        padding-right: 0;
-        height: auto;
+        border-style: line;
+        position: absolute;
+        color: #000000;
+        top: 320px;
+        left: 530px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff)
+    }
+    .SLCDM{
+        position: absolute;
+        top: 480px;
+        left: 530px;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px;
         text-align: center;
+        align-content: center;
     }
-
-    .btplanta, .btfiltrar {
-        top: 110px;
-        width: 45%;
-        height: 35px;
-        font-size: 16px;
-        border-radius: 25px;
+    .MERIDA{
+        font-size: 40px;
+        border-style: line;
+        position: absolute;
+        top: 560px;
+        left: 70px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff)
     }
-
-    .btplanta {
-        left: 5%;
+    .SLMRD{
+        position: absolute;
+        top: 715PX;
+        left: 70PX;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px;
+        text-align: center;
+        align-content: center;
     }
-
-    .btfiltrar {
-        right: 5%;
+    .MERIDA2{
+        font-size: 40px;
+        border-style: line;
+        position: absolute;
+        top: 560px;
+        left: 530px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff)
     }
-
-    .MONTERREY, .CDMX, .MERIDA, .MERIDA2, .MONTERREY2, .CDMX2, 
-    .PUEBLA, .TIJUANA, .OAXACA, .PUEBLA2 {
-        width: 90%;
-        left: 5%;
-        height: 65px;
-        font-size: 17px;
+    .SLMRD2{
+        position: absolute;
+        top: 715PX;
+        left: 530PX;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px;
+        text-align: center;
+        align-content: center;
     }
-
-    .SLMTR, .SLCDM, .SLMRD, .SLMRD2, .SLMTR2, .SLCDM2,
-    .SLPB, .SLTJ, .SLOX, .SLPB2 {
-        width: 90%;
-        left: 5%;
-        font-size: 16px;
-        height: 35px;
-        border-radius: 40px;
+    .MONTERREY2{
+        font-size: 40px;
+        border-style: line;
+        position: absolute;
+        top: 800px;
+        left: 70px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff) 
     }
-
-    .MONTERREY { top: 170px; }
-    .SLMTR { top: 240px; }
-
-    .CDMX { top: 290px; }
-    .SLCDM { top: 360px; }
-
-    .MERIDA { top: 410px; }
-    .SLMRD { top: 480px; }
-
-    .MERIDA2 { top: 530px; }
-    .SLMRD2 { top: 600px; }
-
-    .MONTERREY2 { top: 650px; }
-    .SLMTR2 { top: 720px; }
-
-    .CDMX2 { top: 770px; }
-    .SLCDM2 { top: 840px; }
-
-    .PUEBLA { top: 890px; }
-    .SLPB { top: 960px; }
-
-    .TIJUANA { top: 1010px; }
-    .SLTJ { top: 1080px; }
-
-    .OAXACA { top: 1130px; }
-    .SLOX { top: 1200px; }
-
-    .PUEBLA2 { top: 1250px; }
-    .SLPB2 { top: 1320px; }
-
-    .tank {
-        height: 250px;
-        right: 5%;
-        bottom: 0;
+    .SLMTR2{
+        position: absolute;
+        top: 960PX;
+        left: 70PX;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px;
+        text-align: center;
+        align-content: center;
     }
-
-    .imgato {
-        left: 50%;
-        transform: translateX(-50%);
-        top: -20px;
+    .CDMX2{
+        font-size: 40px;
+        border-style: line;
+        position: absolute;
+        top: 800px;
+        left: 530px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff) 
     }
-
+    .SLCDM2{
+        position: absolute;
+        top: 960PX;
+        left: 530px;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px;
+        text-align: center;
+        align-content: center;
+    }
+    .PUEBLA{
+        font-size: 40px;
+        border-style: line;
+        position: absolute;
+        top: 1030px;
+        left: 70px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff) 
+    }
+    .SLPB{
+        position: absolute;
+        top: 1190PX;
+        left: 70PX;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px;
+        text-align: center;
+        align-content: center;
+    }
+    .TIJUANA{
+        font-size: 40px;
+        border-style: line;
+        position: absolute;
+        top: 1030px;
+        left: 530px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff)   
+    }
+    .SLTJ{
+        position: absolute;
+        top: 1190PX;
+        left: 530PX;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px; text-align: center;
+        align-content: center;
+    }
+    .OAXACA{
+        font-size: 40px;
+        border-style: line;
+        position: absolute;
+        top: 1270px;
+        left: 70px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff) 
+    }
+    .SLOX{
+        position: absolute;
+        top: 1430PX;
+        left: 70PX;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px;
+        text-align: center;
+        align-content: center;
+    }
+    .PUEBLA2{
+        font-size: 40px;
+        border-style: line;
+        position: absolute;
+        top: 1270px;
+        left: 530px;
+        width: 380px;
+        height: 130px;
+        background: linear-gradient(45deg,#00aeff,#ffffff) 
+    }
+    .SLPB2{
+        position: absolute;
+        top: 1430PX;
+        left: 530PX;
+        height: 45PX;
+        width:380PX;
+        font-size: 40PX;
+        border: none;
+        background-color: #000000;
+        border-radius: 90px;
+        text-align: center;
+        align-content: center;
+    }
     header {
-        text-align: center;
+        background-color: #000000;
+        color: #ffffff;
+        padding: 2px;
+        text-align: left;
     }
-
     main {
-        padding: 15px;
+        padding: 20px;
+    }
+    .tank{
+        position: absolute;
+        bottom: 4px;
+        right: 60px;
+        height: 350px;
+    
+    }
+    .imgato{
+        position: absolute;
+        left: 340px;
+        top: -20px;
     }
 }
