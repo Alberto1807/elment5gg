@@ -301,7 +301,6 @@ main {
 
 
 
-/*Media para celulares y telefonos da igual*/
 @media (max-width: 832px){
     body {
         max-width: 100%;
